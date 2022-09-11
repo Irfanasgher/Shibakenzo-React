@@ -1,0 +1,509 @@
+@media (min-width: 1650px) {
+	main .container {
+		max-width: 1600px;
+	}
+	.navbar-nav .nav-item .nav-link {
+		font-size: 20px;
+		padding: 0 50px 0 0;
+	}
+    .nav-btn {
+		padding: 12px 42px !important;
+	}
+	.center-logo img {
+		width: 100%;
+	}
+	nav.navbar.scrolled img {
+		width: 85%;
+	}
+	.header {
+		height: auto;
+	}
+	.header p {
+		font-size: 28px;
+	}
+	.header h1 {
+        font-size: 78px;
+        padding: 20px 0;
+    }
+	.header h2 {
+        font-size: 40px;
+        padding: 0 0 25px 0;
+    }
+	.header button {
+		/*margin-top: 7em;*/
+		font-size: 20px;
+	}
+	.value {
+		padding: 120px 0;
+	}
+	.tokenomic h5 {
+		font-size: 20px;
+		padding-top: 15px;
+	}
+	.value h2 {
+		font-size: 45px;
+		padding: 0 0 50px 0;
+	}
+	.value .value-content-box h5 {
+		font-size: 22px;
+		padding-bottom: 20px;
+	}
+	.value .value-content-box p {
+		font-size: 16px;
+	}
+	.tokenomic {
+		padding: 80px 0;
+	}
+	.tokenomic h2,
+	.roadmap h2 {
+		font-size: 45px;
+	}
+	.token-img-bx .token-img {
+		transform: translateY(72px);
+	}
+	.road-cont {
+		background-size: 70% 102%;
+	}
+	.road-cont .road-txt {
+		padding: 22px 0;
+		font-size: 22px;
+	}
+	.footer img {
+		width: 70%;
+	}
+	.social-icon {
+		max-width: 40px;
+		margin-left: 15px;
+	}
+	.footer-links ul li {
+		font-size: 20px;
+	}
+	.copy {
+		font-size: 16px;
+	}
+	.roadmap h3 {
+		font-size: 28px;
+	}
+	.roadmap-txt {
+	    font-size: 20px;
+	}
+	.tokenomic .list-unstyled li {
+        font-size: 20px;
+    }
+    .roadmap p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .navbar-nav .nav-item .nav-link {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 1199px) {
+	.navbar-nav .nav-item .nav-link {
+	    padding: 0 15px;
+	}
+	.center-logo img {
+		width: 70%;
+		padding: 0 15px;
+	}
+	nav.navbar.scrolled img {
+		width: 60%;
+	}
+	.nav-btn {
+	    padding: 10px 18px 8px 18px;
+	}
+	.header {
+		height: 700px;
+		padding-bottom: 30px;
+	}
+	.header h1 {
+        font-size: 44px;
+        padding: 18px 0;
+        letter-spacing: 10px;
+    }
+	.value h2, .tokenomic h2, .roadmap h2 {
+	    letter-spacing: 12px;
+	}
+	.header button {
+		padding: 15px 40px;
+		/*margin-top: 5em;*/
+	}
+	.value h2, .tokenomic h2, .roadmap h2 {
+	    letter-spacing: 12px;
+	}
+	.value img {
+	    width: 100%;
+	}
+	.token-img-bx .token-img {
+		transform: translateY(42px);
+	}
+	.token-img-bx:hover .token-img {
+		transform: translateY(32px);
+	}
+	.road-cont {
+		background-size: 100% 100%;
+	}
+	.road-cont .road-txt {
+	    width: 70%;
+	}
+	.footer img {
+		width: 72%;
+	}
+	.popup-form p {
+		width: 70%;
+	}
+	.grid-cont .row {
+	    margin-right: 0;
+	}
+	.part-img img {
+	    width: 85%;
+	}
+	.roadmap-txt {
+	    padding: 25px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.header {
+        height: auto;
+        padding: 135px 0 160px 0;
+    }
+	.header p {
+		letter-spacing: 10px;
+		font-size: 18px;
+	}
+	.header h1 {
+	    font-size: 50px;
+	    padding: 20px 0;
+	    letter-spacing: 12px;
+	}
+	.header h2 {
+	    font-size: 26px;
+	}
+	.value h2, .tokenomic h2, .roadmap h2 {
+	    letter-spacing: 10px;
+	    font-size: 26px;
+	}
+	.grid-cont .row {
+		margin-right: 0;
+	}
+	.value img {
+		width: 60%;
+		display: block;
+		margin: 0px auto 0 auto;
+	}
+	.tokenomic {
+		padding: 30px 0;
+	}
+	.tokenomic h5 {
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+	.token-img-bx .token-img {
+		transform: translateY(32px);
+		width: 40%;
+	}
+	.token-img-bx:hover .token-img {
+		transform: translateY(22px);
+	}
+	.road-cont {
+		background-size: 60% 100%;
+	}
+	.road-cont .road-txt {
+		width: 100%;
+	}
+	.footer img {
+		width: 90%;
+	}
+	.footer-links ul li {
+		margin: 0 10px 8px 10px;
+	}
+	.footer-links ul {
+		margin: 0 25px 0 25px;
+	}
+	.center-logo img {
+		width: 60%;
+		padding: 0 0;
+	}
+
+	nav.navbar .navbar-brand {
+        width: 18%;
+        transition: 0.3s ease-in-out;
+    }
+	nav.navbar.scrolled .navbar-brand {
+		width: 18%;
+	}
+    nav.navbar.scrolled img {
+		width: 100%;
+	}
+	nav.navbar {
+		padding: 5px 15px;
+	}
+	nav.navbar.scrolled {
+		padding: 5px 15px;
+	}
+	.navbar-nav .nav-item .nav-link {
+		padding: 0 13px;
+		font-size: 13px;
+	}
+	nav.navbar.scrolled img {
+		width: 100%;
+	}
+	a.nav-link.nav-btn {
+		padding: 7px 12px !important;
+	}
+	.nav-btn {
+		padding: 6px 10px 6px 10px;
+		width: 100%;
+		margin-left: 8px;
+	}
+	.modal-body {
+		padding: 40px 25px;
+	}
+	.popup-form p {
+		width: 100%;
+	}
+	nav.navbar .navbar-collapse {
+		background-color: #00083e;
+		margin: 0 -15px;
+	}
+	nav.navbar .navbar-nav .nav-item {
+		width: 100%;
+		text-align: center;
+	}
+	nav.navbar .navbar-nav .nav-item .nav-link {
+		padding: 14px 0;
+		font-size: 16px;
+		border-bottom: 2px solid #0ab5db;
+		width: 100%;
+	}
+	nav.navbar .navbar-nav .nav-item .nav-link:hover {
+		background-color: #0ab5db;
+		color: #00083e;
+	}
+	a.nav-link.nav-btn {
+		padding: inherit;
+		width: 50% !important;
+		margin: 12px auto 12px auto;
+	}
+	.nav-btn {
+		padding: 12px 10px 12px 10px;
+		width: 100%;
+		margin-left: 0;
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
+	.road-cont {
+	    background-size: 101% 100%;
+	    background-image: none;
+	    padding: 25px 0;
+	}
+	.roadmap-txt {
+	    padding: 25px 15px;
+	}
+	.tokenomic .list-unstyled li {
+        width: 65%;
+    }
+}
+
+@media (max-width: 767px) {
+    
+	
+	.header {
+    height: auto;
+    padding: 100px 0 20px 0;
+    background-position: left;
+}
+	.header h1 {
+	    font-size: 28px;
+	    padding: 18px 0;
+	    letter-spacing: 6px;
+	}
+	.header h2 {
+	    font-size: 18px;
+	}
+	.header p {
+		letter-spacing: 5px;
+		font-size: 15px;
+	}
+	.value h2, .tokenomic h2, .roadmap h2 {
+	    letter-spacing: 8px;
+	    font-size: 25px;
+	    line-height: 1.6em;
+	}
+	.header button {
+		padding: 15px 40px;
+		/*margin-top: 4em;*/
+	}
+	.center-logo img {
+	    width: 80%;
+	    margin: 0 8px 0 auto;
+	    display: block;
+	    padding: 0 0 0 100px;
+	    transition: 0.3s ease-in-out;
+	}
+	.value img {
+		width: 100%;
+	}
+	.tokenomic {
+		padding: 50px 0 40px 0px;
+	}
+	.token-img-bx {
+		margin-bottom: 45px;
+	}
+	.token-img-bx .token-img {
+		transform: translateY(35px);
+	}
+	.token-img-bx:hover .token-img {
+		transform: translateY(22px);
+	}
+	.tokenomic h5 {
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+	.roadmap {
+		padding: 50px 0 80px 0;
+	}
+	.road-cont .road-txt {
+	    width: 100%;
+	}
+	.roadmap h2 {
+		padding: 0 0 25px 0;
+	}
+	.footer img {
+        width: 30%;
+        margin: 0 auto 25px auto;
+        display: block;
+    }
+	.social-icon a img {
+		width: 100%;
+		margin-bottom: 0;
+	}
+	.mail {
+		padding-bottom: 15px;
+	}
+	.social-media-link {
+		justify-content: center;
+		margin-top: 18px;
+	}
+	.social-icon {
+		margin: 0 8px;
+	}
+	.footer-links ul {
+		margin: 0 0 0 0;
+	}
+	.roadmap-txt {
+	    padding: 30px;
+	    margin-top: 40px;
+	}
+	.part-img img {
+	    width: 60%;
+	    margin: 12px 0px;
+	}
+	.tokenomic .list-unstyled li {
+        width: 100%;
+        font-size: 13px;
+    }
+    .header h4 {
+        font-size: 20px;
+    }
+    .roadmap p {
+        width: 100%;
+        font-size: 14px;
+    }
+	
+}
+
+@media (max-width: 580px) {
+	nav.navbar .navbar-brand {
+		width: 28%;
+		transition: 0.3s ease-in-out;
+	}
+	nav.navbar.scrolled .navbar-brand {
+		width: 26%;
+	}
+    .copy-border {
+		flex-direction: column-reverse;
+	}
+    .copy {
+		text-align: center;
+	}
+    .footer img {
+        width: 55%;
+        margin: 0 auto 25px auto;
+        display: block;
+    }
+	.modal-body {
+		padding: 20px 15px 5px 15px;
+	}
+	.popup-form h2 {
+		font-size: 32px;
+	}
+	.popup-form p {
+		margin: 10px auto 15px auto;
+	}
+	.timer-bx {
+        padding: 12px 0;
+        margin: 0 5px;
+        font-size: 25px;
+    }
+    #timer span {
+      display: block;
+      font-size: 16px;
+    }
+}
+@media (max-width: 320px) {
+    nav.navbar .navbar-brand {
+        width: 30%;
+    }
+    nav.navbar.scrolled .navbar-brand {
+        width: 28%;
+    }
+    .header h1 {
+        font-size: 30px;
+        padding: 18px 0;
+        letter-spacing: 8px;
+    }
+    .header p {
+        font-size: 13px;
+    }
+    .header h2 {
+        font-size: 18px;
+    }
+    .header button {
+        padding: 10px 35px;
+        /*margin-top: 3em;*/
+    }
+    .value h2, .tokenomic h2, .roadmap h2 {
+        letter-spacing: 5px;
+        font-size: 23px;
+    }
+    .tokenomic h5 {
+        font-size: 11px;
+    }
+    .token-img-bx .token-img {
+        transform: translateY(20px);
+    }
+    .token-img-bx:hover .token-img {
+        transform: translateY(15px);
+    }
+    .road-cont .road-txt {
+        padding: 12px 0;
+        font-size: 13px;
+    }
+    .road-cont {
+        background-size: 100% 98%;
+    }
+    .roadmap h3 {
+        font-size: 16px;
+    }
+    .footer-links ul li {
+        margin: 0 8px 8px 8px;
+    }
+    .copy {
+        font-size: 12px;
+    }
+}

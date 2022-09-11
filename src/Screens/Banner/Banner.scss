@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'gobold';
+	src: url('./../../fonts/Gobold\ Uplow.otf');
+}
+
+#landing {
+	position: relative;
+	background-image: url('./../../images/Mesa.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	.smallTab {
+		margin-top: 70px;
+		h1.title {
+			font-family: 'Poppins';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 26px;
+			line-height: 38px;
+			align-items: center;
+			text-align: center;
+			letter-spacing: 0.383em;
+			text-transform: uppercase;
+			color: #ffffff;
+		}
+		h2.token {
+			font-family: 'gobold';
+			font-style: normal;
+			font-weight: bold;
+			font-size: 60px;
+			line-height: 85px;
+			align-items: center;
+			text-align: center;
+			letter-spacing: 0.218em;
+			color: #ffffff;
+		}
+		h3.farm {
+			font-family: 'gobold';
+			font-style: normal;
+			font-weight: normal;
+			font-size: 35px;
+			line-height: 55px;
+			align-items: center;
+			text-align: center;
+			letter-spacing: -0.017em;
+			color: #ffffff;
+			span {
+				color: #f9a942;
+			}
+		}
+	}
+	.customButtons {
+		border: none;
+		height: 46px;
+		width: 160px;
+		padding: 8px 25px;
+		font-family: 'gobold';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		line-height: 28px;
+		color: #ffffff;
+		background: #f9a942;
+		border-radius: 43px;
+	}
+	.icon {
+		cursor: pointer;
+	}
+	.ant-progress-outer {
+		width: 30%;
+	}
+	.ant-progress-inner {
+		height: 40px;
+		overflow: hidden;
+		background-color: #5e5e5e;
+	}
+	.ant-progress-success-bg,
+	.ant-progress-bg {
+		background-color: #f9a942;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		height: 40px !important;
+	}
+	.softcapContainer {
+		width: 30%;
+		margin-left: 35%;
+	}
+	.softcap {
+		color: #fff;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 768px) {
+	.smallTab {
+		margin-top: 50px !important;
+	}
+	.ant-progress-outer {
+		width: 50% !important;
+	}
+	.softcapContainer {
+		width: 50% !important;
+		margin-left: 25% !important;
+	}
+}
+
+@media (max-width: 550px) {
+	#landing {
+		height: 100vh;
+		// background-image: none;
+		.smallTab {
+			margin-top: 120px;
+		}
+		h1.title {
+			font-size: 35px;
+			line-height: 40px !important;
+			letter-spacing: normal !important;
+		}
+		h2.token {
+			font-size: 30px !important;
+			line-height: 40px !important;
+			letter-spacing: normal !important;
+		}
+		h3.farm {
+			font-size: 25px !important;
+			line-height: 30px !important;
+			letter-spacing: normal !important;
+		}
+		.ant-progress-outer {
+			width: 80% !important;
+		}
+		.softcapContainer {
+			width: 80% !important;
+			margin-left: 10% !important;
+		}
+	}
+}

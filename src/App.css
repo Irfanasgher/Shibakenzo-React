@@ -1,0 +1,9 @@
+.App {
+	@font-face {
+		font-family: 'gobold';
+		src: url('./fonts/Gobold Uplow.otf');
+	}
+}
+.scrollable-element {
+	scrollbar-width: none;
+}

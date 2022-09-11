@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'gobold';
+	src: url('./../../fonts/Gobold\ Uplow.otf');
+}
+
+#navbar {
+	.appButton {
+		border: 2px solid #f9a942;
+		box-sizing: border-box;
+		border-radius: 43px;
+		width: 170px;
+		height: 50px;
+		background-color: transparent;
+		.innerButton {
+			font-family: 'gobold';
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 29px;
+			/* identical to box height */
+			align-items: center;
+			letter-spacing: -0.017em;
+			text-transform: capitalize;
+
+			color: #ffffff;
+		}
+	}
+	.customNav {
+		align-items: center;
+
+		.navlink {
+			font-family: 'gobold';
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 29px;
+			// display: flex;
+			align-items: center;
+			letter-spacing: -0.017em;
+			text-transform: capitalize;
+			color: #ffffff;
+			margin-right: 20px;
+			&:hover {
+				color: rgb(209, 213, 219);
+			}
+		}
+	}
+	@media (max-width: 320px) {
+		.logo {
+			img {
+				width: 50px;
+			}
+			span {
+				font-size: 16px;
+				line-height: 16px;
+			}
+		}
+	}
+	.navbar-dark .navbar-toggler {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+}

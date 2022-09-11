@@ -1,0 +1,25 @@
+#home {
+	.ant-progress-outer {
+		width: 30%;
+	}
+	.ant-progress-inner {
+		height: 40px;
+		overflow: hidden;
+		background-color: #5e5e5e;
+	}
+	.ant-progress-success-bg,
+	.ant-progress-bg {
+		background-color: #f9a942;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		height: 40px !important;
+	}
+	.softcapContainer {
+		width: 30%;
+		margin-left: 35%;
+	}
+	.softcap {
+		color: #000;
+		font-size: 12px;
+	}
+}
